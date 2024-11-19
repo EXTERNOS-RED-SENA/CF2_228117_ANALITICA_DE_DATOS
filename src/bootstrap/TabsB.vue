@@ -10,10 +10,11 @@
     )
       .indicador__container(v-if="mostrarIndicador && index === 1")
         .indicador--click
-      .tabs-b__tab__icon(v-if="elm.icono")
-        img(:src="elm.icono")
-      .tabs-b__tab__title
-        span(v-html="elm.titulo")
+      .d-flex.align-items-center
+        .tabs-b__tab__icon(v-if="elm.icono").mb-0
+          img(style="width: 25px ")(:src="elm.icono")
+        .tabs-b__tab__title.mb-0
+          span(v-html="elm.titulo")
 
   .tabs-b__content-item(
     v-for="elm of elements"
@@ -27,7 +28,7 @@
 </template>
 
 <script>
-import componentSlotMixins from '../mixins/componentSlotMixins'
+import componentSlotMixins from '../bootstrap/componentSlotMixins'
 export default {
   name: 'TabsB',
   mixins: [componentSlotMixins],

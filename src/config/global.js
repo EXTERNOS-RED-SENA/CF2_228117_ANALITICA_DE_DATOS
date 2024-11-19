@@ -1,7 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo: 'Organización de datos y variables estadísticas',
+    descripcionCurso:
+      'Este componente orientado al nivel técnico ofrece un enfoque sobre los principios y metodologías para la organización de datos estadísticos, abarcando la clasificación y el agrupamiento de variables cualitativas y cuantitativas. Incluye técnicas específicas para evitar errores y optimizar la precisión de los datos. Proporciona herramientas que mejoran la claridad y confiabilidad de los resultados en análisis estadísticos.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [

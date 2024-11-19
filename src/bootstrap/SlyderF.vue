@@ -24,9 +24,9 @@
 </template>
 
 <script>
-import ScrollHorizontal from './plantilla/ScrollHorizontal'
-import componentSlotMixins from '../mixins/componentSlotMixins'
-import slyderMixins from '../mixins/slyderMixins'
+import componentSlotMixins from '../bootstrap/componentSlotMixins'
+import slyderMixins from '../bootstrap/slyderMixins'
+import ScrollHorizontal from '../bootstrap/ScrollHorizontal'
 export default {
   name: 'SlyderF',
   components: { ScrollHorizontal },
