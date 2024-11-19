@@ -24,6 +24,10 @@ span
   &.color-secundario
     background-color: #73c8e2
     padding: .05rem
+  &.color-primario
+    background-color: #3BA935
+    padding: .05rem
+    font-weight: bold
 .border-dashed
   border-style: dashed
   border: 2px dashed #3BA935
@@ -33,3 +37,45 @@ span
   // -moz-box-shadow: 2px 4px 16px 4px rgba(0,0,0,0.38)
   // box-shadow: 2px 4px 7px -2px rgba(0,0,0,0.38)
   border: solid 2px rgba(0,0,0,0.1)
+.fa-chevron-right:before 
+  content: url('../assets/curso/temas/flechader.svg')
+.fa-chevron-left:before 
+  content: url('../assets/curso/temas/flechaiz.svg')
+.titulo-tres
+  position: relative
+  border-radius: 40px
+  background-color: #3BA935
+  display: inline-block
+  padding: .5rem
+  h3
+    color: white
+    margin-left: 4rem
+    margin-right: 2rem
+  &::before
+    position: absolute
+    content: url('../assets/curso/temas/titulo.svg')
+    top: 0
+    left: 0
+    transform: translateY(-8px)
+.mn
+  margin: 0 -3rem
+  background-image: url('../assets/curso/temas/bg-slyde.svg')
+  background-repeat: no-repeat
+  background-size: 100%
+  background-position: center
+.tarjeta.dots
+  position: relative
+  &::before
+    content: url('../assets/curso/temas/dots.svg')
+    position: absolute
+    right: 20px
+    top: 20px
+
+.tarjeta--azul
+  background-color: #E2F4F9
+.acordion__activo
+  background: #D7EED6
+.acordion__accion__btn--a
+  background-color: #10314B
+  i
+    color: white
