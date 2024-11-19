@@ -112,7 +112,7 @@
                 h4.text-center.mb-0 Escala nominal
             p.text-center Clasifica los datos en categorías que no tienen un orden. Es usada para variables cualitativas nominales.
               br
-              |Ejemplo: estado civil (soltero, casado, divorciado).
+              | #[b Ejemplo:] estado civil (soltero, casado, divorciado).
           .tarjeta.bg-white.shadow.p-4.h-100
             .row.justify-content-center.mb-3
               .col-4
