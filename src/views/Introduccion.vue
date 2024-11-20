@@ -25,8 +25,8 @@
     p.mb-5(data-aos='fade-right').fw-bold  ¡Bienvenido a recorrer este camino por la organización estructurada y eficiente de muestras de datos para el análisis estadístico!
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/V5wMOkjSuo4?si=ZyKLLTx6tmwK0WQT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Organización de la muestra de datos de acuerdo a las metodologías estadísticas
     
 </template>
 

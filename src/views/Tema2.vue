@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.fondo-3
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
@@ -23,6 +23,13 @@
     .titulo-tres.mb-4: h3.mb-0 Cómo escoger el nivel de medición adecuado en cinco pasos
     .row.justify-content-center.mb-5
       .col-lg-4.d-lg-block.d-none: img(src='@/assets/curso/temas/37.png', alt='')
+      .col-lg-8
+        LineaTiempoD.color-secundario
+          p.text-small(numero="1" titulo=" Identifica la naturaleza de la variable" style="background-color: #E2DACC") Determina si los datos representan categorías, orden jerárquico o cantidades. Pregunta si la variable clasifica elementos (nominal), establece un orden (ordinal) o mide diferencias precisas (intervalo o razón). Por ejemplo, para el color de un producto, el nivel es nominal; para la satisfacción del cliente, ordinal.
+          p.text-small(numero="2" titulo="Evalúa el propósito del análisis") Establece cómo se utilizarán los datos. Si necesitas realizar cálculos avanzados, como promedios o regresiones, es crucial que las variables sean de intervalo o razón. Para estudios de frecuencias, las escalas nominales u ordinales suelen ser suficientes.
+          p.text-small(numero="3" titulo="Comprueba la naturaleza del cero") Verifica si el cero en tus datos tiene significado absoluto o relativo. Las escalas de razón tienen un cero absoluto (peso o ingresos), mientras que las de intervalo no lo tienen (temperatura en Celsius). Este detalle determina si puedes realizar divisiones o multiplicaciones.
+          p.text-small(numero="4" titulo="Analiza las relaciones entre las categorías") En variables ordinales, las distancias entre categorías no son uniformes, mientras que en las de intervalo y razón sí. Usa estas diferencias para decidir si puedes aplicar medidas como desviación estándar o análisis paramétricos.
+          p.text-small(numero="5" titulo="Consulta con las partes interesadas") Involucra a expertos en estadística o al equipo de análisis para garantizar que las variables y métodos seleccionados sean adecuados para los objetivos del proyecto. Esto asegura que los resultados sean interpretables y relevantes para la toma de decisiones.
     .row.justify-content-center.mb-5
       .col-lg-5.col-7.mb-lg-0.mb-3
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -201,8 +208,12 @@
 </template>
 
 <script>
+import LineaTiempoD from '../bootstrap/LineaTiempoD.vue'
 export default {
   name: 'Tema2',
+  components: {
+    LineaTiempoD,
+  },
   data: () => ({
     // variables de vue
   }),
