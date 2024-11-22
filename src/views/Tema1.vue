@@ -143,59 +143,59 @@
             p.text-center Es similar a la escala de intervalo, pero con un "cero absoluto", lo que permite multiplicar o dividir los valores. Es usada para variables cuantitativas continuas.
               br
               |Ejemplo: peso, altura, ingresos.
-    .titulo-tres.mb-4: h3.mb-0 Aplicaciones industriales de las escalas de medición
-    .mn.fondo-slyde.p-5.mb-5
-      .tarjeta.bg-white.p-5
-        SlyderA(tipo='b')
-          .row.justify-content-center
-            .col-lg-6.mb-4.mb-md-0
-              h5 1. Segmentación de clientes en marketing  (Escala nominal) 
-              p En el ámbito del marketing, la escala nominal es crucial para identificar grupos de clientes con características comunes como edad, género, ubicación geográfica o preferencia de producto. Estas categorías no tienen un orden intrínseco, pero permiten crear estrategias de segmentación efectivas. Por ejemplo, un análisis nominal podría clasificar a los clientes por género para diseñar campañas específicas de publicidad.
-            .col-lg-5
-              figure
-                img(src='@/assets/curso/temas/18.png', alt='')
-          .row.justify-content-center
-            .col-lg-6.mb-4.mb-md-0
-              h5 2. Priorización de mejoras en servicios (Escala ordinal)
-              p  Las empresas utilizan escalas ordinales para clasificar la experiencia o satisfacción del cliente en niveles jerárquicos como "insatisfactorio", "aceptable" y "excelente". Aunque los intervalos entre los niveles no son uniformes, esta clasificación permite identificar áreas críticas y priorizar acciones, como mejorar tiempos de respuesta en atención al cliente.
-            .col-lg-5
-              figure
-                img(src='@/assets/curso/temas/19.png', alt='')
-          .row.justify-content-center
-            .col-lg-6.mb-4.mb-md-0
-              h5 3.Control térmico en procesos industriales (Escala de intervalo)
-              p En industrias como la farmacéutica o la química, la medición de temperaturas es indispensable para garantizar la calidad del producto final. La escala de intervalo, que mide diferencias entre valores sin un cero absoluto, es empleada para registrar cambios en temperaturas durante procesos críticos, como el almacenamiento o la esterilización. Por ejemplo, se controla que un proceso de pasteurización alcance entre 60 y 75 grados Celsius.
-            .col-lg-5
-              figure
-                img(src='@/assets/curso/temas/20.png', alt='')
-          .row.justify-content-center
-            .col-lg-6.mb-4.mb-md-0
-              h5 4.Cálculo de eficiencia y costos (Escala de razón)
-              p En sectores como la logística y la manufactura, la escala de razón permite cuantificar parámetros exactos como el peso de productos, costos operativos y tiempos de entrega. Este tipo de escala, que incluye un cero absoluto, permite operaciones como el cálculo de porcentajes o proporciones, lo que es esencial para medir la eficiencia operativa y optimizar los costos. Por ejemplo, calcular el costo por tonelada transportada en la cadena de suministro.
-            .col-lg-5
-              figure
-                img(src='@/assets/curso/temas/21.png', alt='')
-          .row.justify-content-center
-            .col-lg-6.mb-4.mb-md-0
-              h5 5. Identificación y categorización de fallas técnicas (Escala nominal)
-              p  En mantenimiento industrial, las escalas nominales son útiles para clasificar las fallas técnicas en categorías como "eléctrica", "mecánica" o "de software". Aunque estas categorías no tienen un orden, ayudan a asignar recursos de manera eficiente y a diseñar protocolos específicos para cada tipo de falla. Por ejemplo, un análisis de mantenimiento puede mostrar que el 40% de las fallas son eléctricas.
-            .col-lg-5
-              figure
-                img(src='@/assets/curso/temas/22.png', alt='')
-          .row.justify-content-center
-            .col-lg-6.mb-4.mb-md-0
-              h5 6.Evaluación del desempeño laboral (Escala ordinal)
-              p  En recursos humanos, las escalas ordinales son fundamentales para clasificar el desempeño de los empleados en niveles como "insuficiente", "satisfactorio" y "sobresaliente". Esta evaluación permite diseñar estrategias de capacitación y establecer políticas de incentivos alineadas con los niveles de desempeño identificados. Aunque no mide diferencias exactas, este enfoque facilita comparaciones cualitativas entre empleados.
-            .col-lg-5
-              figure
-                img(src='@/assets/curso/temas/23.png', alt='')
-          .row.justify-content-center
-            .col-lg-6.mb-4.mb-md-0
-              h5 7. Medición de productividad en manufactura (Escala de razón)
-              p Las escalas de razón son la base para calcular métricas clave en manufactura como el número de unidades producidas por hora, la proporción de productos defectuosos o la eficiencia del uso de recursos. Al incluir un cero absoluto, estas mediciones permiten operaciones aritméticas, como determinar si un cambio en la línea de producción duplicó la productividad. Por ejemplo, un análisis podría mostrar que al reducir tiempos muertos, la producción aumentó un 20%.
-            .col-lg-5
-              figure
-                img(src='@/assets/curso/temas/24.png', alt='')
+    //- .titulo-tres.mb-4: h3.mb-0 Aplicaciones industriales de las escalas de medición
+    //- .mn.fondo-slyde.p-5.mb-5
+    //-   .tarjeta.bg-white.p-5
+    //-     SlyderA(tipo='b')
+    //-       .row.justify-content-center
+    //-         .col-lg-6.mb-4.mb-md-0
+    //-           h5 1. Segmentación de clientes en marketing  (Escala nominal) 
+    //-           p En el ámbito del marketing, la escala nominal es crucial para identificar grupos de clientes con características comunes como edad, género, ubicación geográfica o preferencia de producto. Estas categorías no tienen un orden intrínseco, pero permiten crear estrategias de segmentación efectivas. Por ejemplo, un análisis nominal podría clasificar a los clientes por género para diseñar campañas específicas de publicidad.
+    //-         .col-lg-5
+    //-           figure
+    //-             img(src='@/assets/curso/temas/18.png', alt='')
+    //-       .row.justify-content-center
+    //-         .col-lg-6.mb-4.mb-md-0
+    //-           h5 2. Priorización de mejoras en servicios (Escala ordinal)
+    //-           p  Las empresas utilizan escalas ordinales para clasificar la experiencia o satisfacción del cliente en niveles jerárquicos como "insatisfactorio", "aceptable" y "excelente". Aunque los intervalos entre los niveles no son uniformes, esta clasificación permite identificar áreas críticas y priorizar acciones, como mejorar tiempos de respuesta en atención al cliente.
+    //-         .col-lg-5
+    //-           figure
+    //-             img(src='@/assets/curso/temas/19.png', alt='')
+    //-       .row.justify-content-center
+    //-         .col-lg-6.mb-4.mb-md-0
+    //-           h5 3.Control térmico en procesos industriales (Escala de intervalo)
+    //-           p En industrias como la farmacéutica o la química, la medición de temperaturas es indispensable para garantizar la calidad del producto final. La escala de intervalo, que mide diferencias entre valores sin un cero absoluto, es empleada para registrar cambios en temperaturas durante procesos críticos, como el almacenamiento o la esterilización. Por ejemplo, se controla que un proceso de pasteurización alcance entre 60 y 75 grados Celsius.
+    //-         .col-lg-5
+    //-           figure
+    //-             img(src='@/assets/curso/temas/20.png', alt='')
+    //-       .row.justify-content-center
+    //-         .col-lg-6.mb-4.mb-md-0
+    //-           h5 4.Cálculo de eficiencia y costos (Escala de razón)
+    //-           p En sectores como la logística y la manufactura, la escala de razón permite cuantificar parámetros exactos como el peso de productos, costos operativos y tiempos de entrega. Este tipo de escala, que incluye un cero absoluto, permite operaciones como el cálculo de porcentajes o proporciones, lo que es esencial para medir la eficiencia operativa y optimizar los costos. Por ejemplo, calcular el costo por tonelada transportada en la cadena de suministro.
+    //-         .col-lg-5
+    //-           figure
+    //-             img(src='@/assets/curso/temas/21.png', alt='')
+    //-       .row.justify-content-center
+    //-         .col-lg-6.mb-4.mb-md-0
+    //-           h5 5. Identificación y categorización de fallas técnicas (Escala nominal)
+    //-           p  En mantenimiento industrial, las escalas nominales son útiles para clasificar las fallas técnicas en categorías como "eléctrica", "mecánica" o "de software". Aunque estas categorías no tienen un orden, ayudan a asignar recursos de manera eficiente y a diseñar protocolos específicos para cada tipo de falla. Por ejemplo, un análisis de mantenimiento puede mostrar que el 40% de las fallas son eléctricas.
+    //-         .col-lg-5
+    //-           figure
+    //-             img(src='@/assets/curso/temas/22.png', alt='')
+    //-       .row.justify-content-center
+    //-         .col-lg-6.mb-4.mb-md-0
+    //-           h5 6.Evaluación del desempeño laboral (Escala ordinal)
+    //-           p  En recursos humanos, las escalas ordinales son fundamentales para clasificar el desempeño de los empleados en niveles como "insuficiente", "satisfactorio" y "sobresaliente". Esta evaluación permite diseñar estrategias de capacitación y establecer políticas de incentivos alineadas con los niveles de desempeño identificados. Aunque no mide diferencias exactas, este enfoque facilita comparaciones cualitativas entre empleados.
+    //-         .col-lg-5
+    //-           figure
+    //-             img(src='@/assets/curso/temas/23.png', alt='')
+    //-       .row.justify-content-center
+    //-         .col-lg-6.mb-4.mb-md-0
+    //-           h5 7. Medición de productividad en manufactura (Escala de razón)
+    //-           p Las escalas de razón son la base para calcular métricas clave en manufactura como el número de unidades producidas por hora, la proporción de productos defectuosos o la eficiencia del uso de recursos. Al incluir un cero absoluto, estas mediciones permiten operaciones aritméticas, como determinar si un cambio en la línea de producción duplicó la productividad. Por ejemplo, un análisis podría mostrar que al reducir tiempos muertos, la producción aumentó un 20%.
+    //-         .col-lg-5
+    //-           figure
+    //-             img(src='@/assets/curso/temas/24.png', alt='')
     Separador
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2  1.5	Variables dependientes e independientes
@@ -302,20 +302,20 @@
         .tarjeta.dots.p-5.h-100(style="background-color: #E2DACC ")
           .col-3: img(src='@/assets/curso/temas/32.svg', alt='').mb-4
           p.mb-0 Para #[span.color-primario variables cuantitativas discretas y continuas], se usan medidas como la media, la desviación estándar, y pruebas estadísticas paramétricas como la t de Student o ANOVA, dependiendo del contexto.
-    .row.justify-content-center.mb-5
-      .col-lg-4.d-lg-block.d-none: img(src='@/assets/curso/temas/33.png', alt='')
-      .col-lg-8
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-          div(titulo="Relación entre variables nominales y análisis de categorías")
-            p.mb-0 Las variables nominales agrupan elementos en categorías sin un orden inherente, como género, tipo de producto o regiones. El análisis de frecuencias y proporciones identifica patrones, mientras que pruebas como chi-cuadrado evalúan asociaciones entre variables. Por ejemplo, una empresa analiza si la preferencia por un producto específico está vinculada a la ubicación geográfica.
-          div(titulo="Uso de variables ordinales para medir jerarquías")
-            p.mb-0 Las variables ordinales organizan datos en una escala ordenada, como niveles de satisfacción o desempeño. La mediana y los percentiles resumen estos datos, mientras que pruebas como la de rangos de Wilcoxon comparan grupos sin asumir normalidad. Por ejemplo, una encuesta compara el nivel de satisfacción de clientes con diferentes servicios ofrecidos para determinar el mejor evaluado.
-          div(titulo="Análisis de variables de intervalo en estudios comparativos")
-            p.mb-0 Las variables de intervalo miden diferencias cuantitativas sin un cero absoluto, como temperatura o puntuaciones de pruebas. Se analizan usando la media y desviación estándar, y herramientas como ANOVA identifican diferencias entre grupos. Por ejemplo, se estudian resultados académicos para evaluar el impacto de un nuevo método de enseñanza.
-          div(titulo="Variables de razón en métricas absolutas")
-            p.mb-0 Las variables de razón, como ingresos o peso, incluyen un cero absoluto que permite operaciones matemáticas completas. La regresión lineal analiza relaciones entre estas variables, y pruebas como la t de Student comparan promedios. Por ejemplo, una empresa examina cómo los ingresos de clientes influyen en su gasto en servicios adicionales.
-          div(titulo="Impacto del método estadístico en los resultados")
-            p.mb-0 Seleccionar el método estadístico según el tipo de variable garantiza resultados válidos. Usar la media en datos ordinales, como rangos de satisfacción, distorsiona las conclusiones. En cambio, análisis no paramétricos destacan tendencias reales. Por ejemplo, en salud, elegir métodos incorrectos para variables de recuperación puede comprometer decisiones clínicas.
+    //- .row.justify-content-center.mb-5
+    //-   .col-lg-4.d-lg-block.d-none: img(src='@/assets/curso/temas/33.png', alt='')
+    //-   .col-lg-8
+    //-     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+    //-       div(titulo="Relación entre variables nominales y análisis de categorías")
+    //-         p.mb-0 Las variables nominales agrupan elementos en categorías sin un orden inherente, como género, tipo de producto o regiones. El análisis de frecuencias y proporciones identifica patrones, mientras que pruebas como chi-cuadrado evalúan asociaciones entre variables. Por ejemplo, una empresa analiza si la preferencia por un producto específico está vinculada a la ubicación geográfica.
+    //-       div(titulo="Uso de variables ordinales para medir jerarquías")
+    //-         p.mb-0 Las variables ordinales organizan datos en una escala ordenada, como niveles de satisfacción o desempeño. La mediana y los percentiles resumen estos datos, mientras que pruebas como la de rangos de Wilcoxon comparan grupos sin asumir normalidad. Por ejemplo, una encuesta compara el nivel de satisfacción de clientes con diferentes servicios ofrecidos para determinar el mejor evaluado.
+    //-       div(titulo="Análisis de variables de intervalo en estudios comparativos")
+    //-         p.mb-0 Las variables de intervalo miden diferencias cuantitativas sin un cero absoluto, como temperatura o puntuaciones de pruebas. Se analizan usando la media y desviación estándar, y herramientas como ANOVA identifican diferencias entre grupos. Por ejemplo, se estudian resultados académicos para evaluar el impacto de un nuevo método de enseñanza.
+    //-       div(titulo="Variables de razón en métricas absolutas")
+    //-         p.mb-0 Las variables de razón, como ingresos o peso, incluyen un cero absoluto que permite operaciones matemáticas completas. La regresión lineal analiza relaciones entre estas variables, y pruebas como la t de Student comparan promedios. Por ejemplo, una empresa examina cómo los ingresos de clientes influyen en su gasto en servicios adicionales.
+    //-       div(titulo="Impacto del método estadístico en los resultados")
+    //-         p.mb-0 Seleccionar el método estadístico según el tipo de variable garantiza resultados válidos. Usar la media en datos ordinales, como rangos de satisfacción, distorsiona las conclusiones. En cambio, análisis no paramétricos destacan tendencias reales. Por ejemplo, en salud, elegir métodos incorrectos para variables de recuperación puede comprometer decisiones clínicas.
 
 
 
