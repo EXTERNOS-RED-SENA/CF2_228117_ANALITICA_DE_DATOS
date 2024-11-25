@@ -15,6 +15,7 @@
             .col-lg-2.col-3.mb-lg-0.mb-3: img(src='@/assets/curso/temas/64.svg', alt='')
             .col-lg-10
               p.mb-0  En el origen del diagrama se encuentra el concepto principal de "Organización de la muestra de datos de acuerdo a las metodologías estadísticas", del cual se derivan temas fundamentales: definición de variable y clasificación, niveles de medición, técnicas de agrupación de datos y organización de la muestra de datos. cada una de estas áreas se desglosa en conceptos clave, reflejando la estructura y el contenido del componente.
+    p.mb-4 Este diagrama actúa como una guía visual para explorar los conceptos presentados en el texto, permitiendo al lector comprender rápidamente la amplitud y la organización de los temas tratados, así como sus conexiones. Al revisar este mapa, el lector podrá observar cómo los diferentes aspectos de la estadística se entrelazan para formar un proceso integral y sistemático en la organización de datos. Se invita a utilizar este diagrama como un complemento al contenido detallado del componente, sirviendo como una referencia rápida y un recordatorio visual de los conceptos esenciales en la organización y manejo de datos en estudios estadísticos.
 
 
 
